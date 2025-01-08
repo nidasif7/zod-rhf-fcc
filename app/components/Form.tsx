@@ -49,7 +49,7 @@ function Form() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="grid col-auto">
-        <h1 className="text-3xl font-bold mb-4">React-Hook-Form & Zod</h1>
+        <h1 className="text-3xl text-black font-bold mb-4">React-Hook-Form & Zod</h1>
         <FormField
           type="email"
           placeholder="Email"
